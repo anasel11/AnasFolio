@@ -1,11 +1,40 @@
 /* Header */
 
+body {
+    background-color: #F5F5F5; /* couleur de fond grise */
+}
+
+.navb{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .title{
     color: rgb(198, 0, 248);
 }
 
 .desc{
     color: aqua;
+}
+
+nav{
+    background-color: aqua;
+}
+nav ul li{
+    display: inline-block;
+}
+
+ul li a{
+    list-style: none;
+    color: #8987A1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.h{
+    font-weight: bold;
 }
 
 /* Body */
