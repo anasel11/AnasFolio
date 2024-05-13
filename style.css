@@ -4,15 +4,21 @@ body {
     background-color: #F5F5F5; /* couleur de fond grise */
 }
 
-.navb{
+svg{
     display: flex;
+    justify-content: center; /* ou flex-end selon vos besoins */
 }
 
 .title{
+    display: flex;
+    justify-content: center;
     color: rgb(198, 0, 248);
+
 }
 
 .desc{
+    display: flex;
+    justify-content: center;
     color: aqua;
 }
 
@@ -34,6 +40,11 @@ a{
 
 .h{
     font-weight: bold;
+}
+
+svg text a{
+    display: flexbox;
+    display: inline-block;
 }
 
 /* Body */
