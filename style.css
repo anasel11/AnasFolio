@@ -6,7 +6,6 @@ body {
 
 .navb{
     display: flex;
-    justify-content: flex-end;
 }
 
 .title{
