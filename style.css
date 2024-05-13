@@ -1,6 +1,6 @@
 /* Header */
 
-header{
+header {
     display: flex;
     flex-direction: column;
 }
@@ -28,44 +28,44 @@ body {
     margin-left: 160px;
 }
 
-.rass{
+.rass {
     display: flex;
     justify-content: center;
 }
 
-.bold-title{
+.bold-title {
     display: flex;
     justify-content: center;
     color: rgb(198, 0, 248);
-    font-weight: bold ;
+    font-weight: bold;
 }
 
-.desc{
+.desc {
     display: flex;
     justify-content: center;
     color: aqua;
 }
 
-nav{
+nav {
     background-color: aqua;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
 }
 
-ul li a{
+ul li a {
     list-style: none;
     color: #2c257a;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.svgbro text a{
+.svgbro text a {
     display: flexbox;
     display: inline-block;
 }
 
 /* Body */
-
