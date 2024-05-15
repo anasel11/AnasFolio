@@ -1,5 +1,15 @@
 /* Header */
 
+.site {
+    padding-top: 0px;
+    margin-top: 0px;
+    background: url('lightning.svg') no-repeat center center;
+    color: white;
+    background-size: contain;    
+    background-position-y: -50px;
+    background-attachment: fixed;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -33,17 +43,21 @@ body {
     justify-content: center;
 }
 
-.dz {
+h1 {
+    font-size: 60px;
     display: flex;
     justify-content: center;
-    color: rgb(198, 0, 248);
-    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
 }
 
 .desc {
     display: flex;
     justify-content: center;
-    color: aqua;
+    color: #252432;
+    font-size: 45px;
+    font-weight: 480;
+    margin-top: 0px;
 }
 
 nav {
@@ -59,8 +73,29 @@ ul li a {
     color: #2c257a;
 }
 
+.h {
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
+}
+
+.s{
+    color: #8987A1;
+}
+
+.go{
+    color: #FFFFFF;
+    background-color: #252432;
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+    margin-right: 42%;
+    margin-left: 42%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .svgbro text a {
