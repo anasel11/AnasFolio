@@ -3,7 +3,7 @@
 .site {
     padding-top: 0px;
     margin-top: 0px;
-    background: url('lightning.svg') no-repeat center center;
+    background: url('assets/lightning.svg') no-repeat center center;
     color: white;
     background-size: contain;    
     background-position-y: -50px;
